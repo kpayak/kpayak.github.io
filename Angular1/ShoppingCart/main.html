@@ -1,13 +1,14 @@
 <div class="lineup">
     <div class="lineup-header">
+
         <div class="lineup-stats">
             <div class="lineup-stats-text">Showing: All items</div>
         </div>
         
-        <!-- <div class="filter" ng-controller="sortController as sortCtrl">
+        <div class="filter" ng-controller="sortController as sortCtrl">
             <div class="filter-text">
-                <p>Sort:</p>
-                <div class="dropdown">
+                <p></p>
+                <!-- <div class="dropdown">
                     <div class="dropdown-text">Relevance</div>
                     <div class="dropdown-icon">
                         <i class="ion-chevron-down"></i>
@@ -20,10 +21,10 @@
                         <li>Price: Low -> high</li>
                         <li>Customer rating</li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
-    </div> -->
+    </div>
 
     <div class="catalog-container" ng-controller="catalogController as ctlgCtrl">
         <div class="catalog" ng-repeat="item in ctlgCtrl.inventory track by $index">
