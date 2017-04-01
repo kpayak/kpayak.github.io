@@ -1,0 +1,179 @@
+/*      Minor BreakPoint     */
+
+@media screen and (max-width: 1120px) {
+    .social-card {
+        width: 33.3333%;
+    }
+    
+    #my-projects {
+        padding: 0 2em 1em 2em;
+    }
+    
+    .project {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-me {
+        padding: 0 7.5em 1em 7.5em;
+    }
+    
+    #my-projects {
+        padding: 4em 0.5em 1em 0.5em;
+    }
+    
+    .project {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hamburger-menu {
+        padding-right: 1em;
+    }
+    
+    .logo {
+        padding-left: 1em;
+    }
+    
+    #nav-menu {
+        width: 200px;
+        height: 250px;
+    }
+    
+    #nav-menu .menu-link:first-of-type {
+        padding-top: 2em;
+    }
+    
+    #nav-menu .menu-link {
+        font-size: 0.9em;
+    }
+    
+    .about-me {
+        padding: 0 4.5em 1em 4.5em;
+    }
+    .about-me h1 {
+        font-size: 2em;
+    }
+    
+    .title-location {
+        font-size: 1.2em;
+    }
+    
+    .about-me p {
+        font-size: 1.2em;
+    }
+    
+    #my-projects {
+        padding: 4em 4em 1em 4em;
+    }
+    
+    #my-projects h1 {
+        font-size: 2em;
+    }
+    .project {
+        width: 200px;
+        height: 200px;
+        padding: 0.5em;
+        font-size: 0.7em;
+        margin-bottom: 1.5em;
+    }
+    .project-screenshot {
+        height: 150px;
+    }
+    #contact-me h1 {
+        font-size: 2em;
+    }
+    .social-card {
+        width: 33.3333%;
+    }
+    .link-to-top {
+        width: 30%;
+    }
+    .copyright {
+        width: 70%;
+    }
+}
+
+
+/*      For mobile devices      */
+
+@media screen and (max-width: 580px) {
+    .hamburger-menu {
+        padding-right: 0.5em;
+    }
+    
+    .logo {
+        padding-left: 0.5em;
+    }
+    
+    .about-me {
+        padding: 0 1.2em 1em 1.2em;
+    }
+    .about-me h1 {
+        font-size: 1.7em;
+    }
+    .about-me p {
+        font-size: 1.2em;
+    }
+    #my-projects {
+        padding: 0.8em;
+    }
+    #my-projects h1 {
+        font-size: 1.7em;
+    }
+    .project {
+        width: 250px;
+        height: 280px;
+        padding: 0.5em;
+        font-size: 1em;
+        margin-bottom: 1.5em;
+    }
+    .project-screenshot {
+        height: 200px;
+    }
+    
+    #contact-me {
+        padding: 2em;
+    }
+    #contact-me h1 {
+        font-size: 1.7em;
+    }
+    .social-card {
+        width: 50%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .social-icons {
+        font-size: 4em;
+    }
+    footer {
+        padding: 1em;
+    }
+    .link-to-top {
+        width: 20%;
+        text-align: left;
+    }
+    .copyright {
+        width: 80%;
+        text-align: right;
+    }
+    .footer-content {
+        font-size: 0.8em;
+    }
+}
+
+/*  Minor Breakpoint    */
+/*  For iphone 4 and Lumia 520 screen sizes */
+@media screen and (max-width: 321px) {
+    .title-location {
+        font-size: 1em;
+    }
+    
+    .about-me p {
+        font-size: 1em;
+    }
+}
