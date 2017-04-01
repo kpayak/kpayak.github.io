@@ -3,7 +3,8 @@
         <div class="lineup-stats">
             <div class="lineup-stats-text">Showing: All items</div>
         </div>
-        <div class="filter" ng-controller="sortController as sortCtrl">
+        
+        <!-- <div class="filter" ng-controller="sortController as sortCtrl">
             <div class="filter-text">
                 <p>Sort:</p>
                 <div class="dropdown">
@@ -22,7 +23,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="catalog-container" ng-controller="catalogController as ctlgCtrl">
         <div class="catalog" ng-repeat="item in ctlgCtrl.inventory track by $index">
