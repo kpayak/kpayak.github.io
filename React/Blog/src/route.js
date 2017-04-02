@@ -6,9 +6,9 @@ import PostsNew from './components/posts_new';
 import PostsShow from './components/posts_show';
 
 export default (
-    <Route path='/' component={App}>
+    <Route path='https://kpayak.github.io/React/Blog/index.html' component={App}>
         <IndexRoute component={PostsIndex}/>
-        <Route path='/posts/new' component={PostsNew}/>
-        <Route path='posts/:id' component={PostsShow}/>
+        <Route path='https://kpayak.github.io/React/Blog/index.html/posts/new' component={PostsNew}/>
+        <Route path='https://kpayak.github.io/React/Blog/index.html/posts/:id' component={PostsShow}/>
     </Route>
 );

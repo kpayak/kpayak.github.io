@@ -15,7 +15,6 @@ body {
 
 
 /* Cover Page Styling */
-
 #cover-page {
     display: -webkit-box;
     display: -webkit-flex;
@@ -228,6 +227,11 @@ header {
     padding: 2em;
     width: 300px;
     height: 300px;
+}
+
+.project a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
 }
 
 .project-screenshot {
